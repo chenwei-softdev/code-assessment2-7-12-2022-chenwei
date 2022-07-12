@@ -1,0 +1,563 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+
+
+.landing-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.landing-li {
+  float: left;
+}
+
+.landing-li-a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.landing-li-footer-a {
+  display: inline-block;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+.footer-left {
+  float: left;
+}
+
+.landing-li a:hover:not(.active) {
+  color: black;
+}
+
+.float-right {
+  float: right;
+}
+
+.footer-right {
+  display: inline-block;
+  float: right;
+  margin-top: 175px;
+}
+
+.active {
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Exo 2';
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.active-black {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-family: 'Exo 2';
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.active:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  transition: 0.4s;
+}
+
+.pr-52 {
+  padding-right: 52px;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  min-width: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.landing-header-title {
+  font-size: 450%;
+  text-align: center;
+  font-family: Exo 2;
+  font-style: Blod;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.landing-header-title1 {
+  text-align: center;
+  font-style: Exo2;
+  color: white;
+}
+
+.landing-vector {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.select {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: none;
+  font-size: 20px;
+  width: 100%;
+}
+
+.select:focus {
+  border: none;
+}
+
+.landing-search-item {
+  color: #6D6D6D;
+  display: inline-block;
+  margin-left: 1%;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  width: 23%;
+}
+
+.landing-search-item-title {
+  padding: 2px;
+  text-align: left;
+}
+
+.landing-search {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+  background-color: rgba(249, 249, 249, 0.7);
+  width: 80%;
+  margin-left: 10%;
+}
+
+.landing-search-btn {
+  background-image: linear-gradient(to right, #FF594C, #FAC527);
+  color: white;
+  padding-top: 20px;
+
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.landing-header-bg-img {
+  background-image: url('../public/assets/image/pexels-vecislavas-popa-1571460 1.png');
+  z-index: -1;
+  background-size: cover;
+  padding-top: 25px;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+
+.explore {
+  margin-top: 50px;
+  width: 92%;
+  margin-left: 4%;
+}
+
+.explore h1 {
+  font-size: 250%;
+  font-family: Exo 2;
+  font-style: bold;
+}
+
+.product-title div {
+  display: inline-block;
+}
+
+.product-title {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  bottom: -40px;
+  padding: 15px;
+  width: 92%;
+  left: 4%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+}
+
+.explore-btn-sm {
+  background-image: linear-gradient(to right, #FF594C, #FAC527);
+  color: white;
+  max-height: 77px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.explore-btn-lm {
+  background-image: linear-gradient(to right, #FF594C, #FAC527);
+  color: white;
+  max-height: 77px;
+  padding: 18px 25px 18px 25px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .landing-li-a {
+    display: block;
+  }
+
+  .dropdown-content {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .second-product {
+    margin-top: 100px;
+  }
+
+  .product {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar {
+    display: none;
+    position: absolute;
+    height: 400px;
+    min-width: 40%;
+    margin-top: 100px;
+    right: 60px;
+    z-index: 99;
+    top: -30px;
+    animation-name: mobile-menu;
+    animation-duration: 0.3s;
+    border-radius: 10px;
+    background-color: gray;
+  }
+
+  @keyframes mobile-menu {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .footer-right {
+    margin-top: 70px;
+
+  }
+
+  .footer-left {
+    display: block;
+
+  }
+
+  .landing-li-footer-a {
+    width: 100%;
+  }
+
+  .aboutUs {
+    flex-flow: column;
+  }
+
+  .aboutUs-1 {
+    display: block;
+    width: 100% !important;
+  }
+
+  .aboutUs-2 {
+    display: block;
+
+    width: 100% !important;
+    margin-top: 0px !important;
+  }
+
+  .landing-header-title {
+    font-size: 280%;
+  }
+
+  .landing-header-title1 {
+    font-size: 130%;
+  }
+
+  .navbar li a {
+    text-align: center;
+    display: block;
+    text-align: center;
+    text-align: center;
+  }
+
+  .bars {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .landing-vector {
+    display: none;
+  }
+
+  .landing-search-item {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .landing-search {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+    background-color: rgba(249, 249, 249, 0.7);
+    width: 94%;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+
+  .bars {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .navbar {
+    display: block !important;
+  }
+
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mt-5 {
+  margin-top: 25px;
+}
+
+.mt-10 {
+  margin-top: 80px
+}
+
+.aboutUs {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.aboutUs-1 {
+  width: 44%;
+  position: relative;
+  display: inline-block;
+  margin-top: -50px;
+  margin-right: 1%;
+}
+
+.aboutUs-1 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.aboutUs-2 {
+  width: 54%;
+  margin-left: 1%;
+  margin-top: -50px;
+  position: relative;
+  display: inline-block;
+}
+
+.aboutUs-2 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.explore-btn-lm {
+  cursor: pointer;
+}
+
+.explore-btn-sm {
+  cursor: pointer;
+}
+
+.aboutUs1-1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #999999;
+  padding: 10px;
+  position: absolute;
+  bottom: -60px;
+  width: 80%;
+  left: 10%;
+  border-radius: 16px;
+}
+
+.aboutUs-items {
+  display: block;
+  position: relative;
+}
+
+.aboutUs2-1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #999999;
+  padding: 10px;
+  position: absolute;
+  bottom: -60px;
+  width: 80%;
+  left: 5%;
+  border-radius: 16px;
+}
+
+.mt-20 {
+  margin-top: 150px;
+}
